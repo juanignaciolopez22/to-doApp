@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+  }
+body{
+    background:url(../images/bg.jpg); 
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: rgb(254, 255, 255);
+    margin-top: 1%;
+    padding-top: 2%;
+}
+h3,h2{   
+    color: rgb(233, 233, 241);
+}
+
+.container-folders{
+    margin: 2%;
+}
+
+.container-folder,.container-task{
+    margin: 4% 0%;
+    margin-left: 2%;
+    padding: 4%;
+    background-color: rgba(189, 253, 250, 0.2);
+}
+
+.container-task-done{
+    background-color: rgba(182, 206, 206, 0.9);
+}
+a{
+    margin: 0.5%;
+}
+input{
+    border-radius: 10px;
+    background-color: rgb(247, 238, 238,0.8);
+    border: rgb(247, 238, 238,0.8);
+    margin: 10px;
+    padding: 10px;
+}
+input.form-control {
+    margin: 0%;
+    padding:1%;
+}
+.flexpart2{
+    width: 50%;
+    
+}
+#list-tasks{
+    overflow: scroll; 
+    max-height: 500px;
+    overflow-x: hidden;
+    margin-top: 2%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 5%;
+  }
+::-webkit-scrollbar-track {
+background: rgba(209, 203, 203, 0.2);
+
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(66, 65, 65);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgb(27, 27, 27);
+}
+.flexpart1{
+    margin:2%
+}
+.flexpart1{
+    width: 30%;
+    border-right: rgb(178, 206, 206) 5px solid;
+}
+.flex-container{
+    margin-top: 5%;
+}
+.img-done{
+    height: 30px;
+    margin-left: 5%;  
+}
+.img-folder{
+    margin: 0% 1%;
+}
+.made-by-juani{
+    font-style: italic;
+    color: black
+}
+
