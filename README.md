@@ -15,7 +15,7 @@ It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS.
 
 **To keep in mind**
 
-- Login feature: The initial login page is built by server-side rendering (browser reloads before showing the to-do list SPA). 
+- Login feature: The home login page is built by server-side rendering (browser reloads before showing the to-do list SPA). 
 	
     Log in as:
 	- User (e-mail): lopezjuanignacio80@gmail.com
