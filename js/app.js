@@ -65,8 +65,7 @@ async function updateTask(url,task){
             "body": JSON.stringify(task),
         });
         if (res.status == 200) {
-            console.log("task updated!");
-            
+            console.log("task updated!"); 
             showTasks(app.currentFolder);
         }
     } catch (error) {

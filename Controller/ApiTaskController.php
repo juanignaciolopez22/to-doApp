@@ -1,7 +1,9 @@
 <?php
+
 require_once "Model/TaskModel.php";
 require_once "View/ApiView.php";
 require_once "Model/FolderModel.php";
+
 class ApiTaskController{
 
     private $model;
@@ -50,6 +52,7 @@ class ApiTaskController{
             return $this->view->response("Id=$idTask doesn't exist", 404);
         }
     }
+
     function deleteTask($params = null){
         $idTask = $params[":ID"];
         $task = $this->model->getTask($idTask);
@@ -62,7 +65,6 @@ class ApiTaskController{
     }
 
     function addTask(){
-        // obtengo el body del request (json)
         $body = $this->getBody();
         if (isset($body) && isset($body->description) && isset($body->id_folder)){
             $folder= $this->folderModel->getFolder($body->id_folder);

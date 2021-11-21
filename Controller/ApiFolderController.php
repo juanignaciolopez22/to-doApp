@@ -2,6 +2,7 @@
 
 require_once "View/ApiView.php";
 require_once "Model/FolderModel.php";
+
 class ApiFolderController{
 
     private $model;
@@ -30,7 +31,6 @@ class ApiFolderController{
     }
 
     function addFolder(){
-        // get body request
         $body = $this->getBody();
         if (isset($body) && isset($body->name)){
             $idFolder=$this->model->addFolder($body->name);

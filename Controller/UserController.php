@@ -41,6 +41,7 @@ class UserController
             header("Location: " . BASE_URL . "home");
         }
     }
+    
     function showApp(){
         session_start();
         if (!isset($_SESSION["mail"])){
