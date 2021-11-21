@@ -26,4 +26,6 @@ It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS.
 
 If you have any question (or whatever), feel free to contact me.
 
-Best regards, Juani :)
+Best regards, 
+
+Juani :)
