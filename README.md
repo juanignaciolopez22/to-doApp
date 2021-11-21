@@ -21,7 +21,7 @@ It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS.
 	- User (e-mail): lopezjuanignacio80@gmail.com
     - Password: juani (hashing with BCRYPT)
 
-- I haven’t used other different frameworks or libraries yet, that’s why I chose these technologies. If you need, I’m willing to explain how the site works behind (or display to you the UI, if you can’t run it).
+- I haven’t used other different frameworks or libraries yet, that’s why I chose these technologies. If you need, I’m willing to explain how the site works behind (or display the UI to you, if you can’t run it).
 <br>
 <br>
 
