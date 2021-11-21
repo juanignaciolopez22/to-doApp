@@ -11,7 +11,7 @@ This web application is made mostly with PHP (v8.0.10), then with:
 It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS. 
 
 <br>
-<br>
+
 
 **To keep in mind**
 
@@ -24,8 +24,7 @@ It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS.
 - I haven’t used other different frameworks or libraries yet, that’s why I chose these technologies. If you need, I’m willing to explain how the site works behind (or display to you the UI, if you can’t run it).
 <br>
 <br>
-<br>
-<br>
-If you have any problem (or whatever), please let me know.
+
+If you have any doubt (or whatever), please let me know.
 
 Best regards, Juani
