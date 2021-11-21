@@ -12,7 +12,7 @@ It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS.
 
 <br>
 <br>
-<br>
+
 **To keep in mind**
 
 - Login feature: The initial login page is built by server-side rendering (browser reloads before showing the to-do list SPA). 
@@ -26,6 +26,6 @@ It was deployed and tested on XAMPP web server (v8.0.10), on my Ubuntu 20.04 OS.
 <br>
 <br>
 <br>
-Let me know if you have any problem or whatever.
+If you have any problem (or whatever), please let me know.
 
 Best regards, Juani
