@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 21, 2021 at 03:49 PM
+-- Generation Time: Nov 26, 2021 at 09:33 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ensolvers_ddbb`
+-- Database: `to-doApp`
 --
 
 -- --------------------------------------------------------
@@ -67,10 +67,10 @@ INSERT INTO `tasks` (`id`, `description`, `id_folder`, `done`) VALUES
 (54, 'Watch Harry Potter', 31, 0),
 (55, 'Brush my teeth', 30, 0),
 (56, 'Write code', 30, 1),
-(57, 'Drink more water', 30, 0),
 (74, 'Sleep', 31, 0),
 (75, 'Attend classes', 30, 0),
-(76, 'Sunbathe in free time :)', 30, 1);
+(76, 'Sunbathe in free time :)', 30, 1),
+(94, 'Drink more water', 30, 0);
 
 -- --------------------------------------------------------
 
@@ -121,13 +121,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `folders`
 --
 ALTER TABLE `folders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
 -- AUTO_INCREMENT for table `tasks`
 --
 ALTER TABLE `tasks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=96;
 
 --
 -- Constraints for dumped tables

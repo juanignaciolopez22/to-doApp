@@ -6,7 +6,7 @@ class UserModel
 
     function __construct()
     {
-        $this->db = new PDO('mysql:host=localhost;' . 'dbname=ensolvers_ddbb;charset=utf8', 'root', '');
+        $this->db = new PDO('mysql:host=localhost;' . 'dbname=to-doApp;charset=utf8', 'root', '');
     }
 
     function getUser($mail)
