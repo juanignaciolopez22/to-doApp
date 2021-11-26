@@ -2,4 +2,4 @@
 
 sudo /opt/lampp/lampp start 
 
-xdg-open http://localhost/app-for-ensolvers
+xdg-open http://localhost/to-doApp
